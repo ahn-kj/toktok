@@ -64,6 +64,7 @@ brew install mysql
 #### Make sure that `gem install sqlite3 -v '1.3.12'` succeeds before bundling.
 
 ```
+gem install sqlite3 -v '1.3.12' -- --with-sqlite3-lib=/usr/lib
 ```
 
 
