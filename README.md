@@ -47,6 +47,13 @@ $ bundle install
 $ bundle exec rake db:migrate
 ```
 
+## 개발환경 설치시 에러처리
+
+### ERROR: Error installing nokogiri: 
+```
+gem install nokogiri -- --use-system-libraries=true --with-xml2-include=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/libxml2/
+```
+
 ### 소스관리 설정
 
 반드시 https://github.com/awslabs/git-secrets를 설치하도록 합니다. 설치 후에 반드시 https://github.com/awslabs/git-secrets#installing-git-secrets 이 부분을 참고하여 로컬 레포지토리에 모두 설정 합니다.
