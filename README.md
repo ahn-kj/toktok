@@ -47,19 +47,25 @@ $ bundle install
 $ bundle exec rake db:migrate
 ```
 
-## 개발환경 설치시 에러처리
+### 개발환경 설치시 에러처리
 
-### ERROR: Error installing nokogiri: 
+#### ERROR: Error installing nokogiri: 
 
 ```
 gem install nokogiri -- --use-system-libraries=true --with-xml2-include=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/libxml2/
 ```
 
-### ERROR:  Error installing mysql2:
+#### ERROR:  Error installing mysql2:
 
 ```
 brew install mysql
 ```
+
+#### Make sure that `gem install sqlite3 -v '1.3.12'` succeeds before bundling.
+
+```
+```
+
 
 ### 소스관리 설정
 
