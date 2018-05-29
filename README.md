@@ -50,8 +50,15 @@ $ bundle exec rake db:migrate
 ## 개발환경 설치시 에러처리
 
 ### ERROR: Error installing nokogiri: 
+
 ```
 gem install nokogiri -- --use-system-libraries=true --with-xml2-include=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/libxml2/
+```
+
+### ERROR:  Error installing mysql2:
+
+```
+brew install mysql
 ```
 
 ### 소스관리 설정
